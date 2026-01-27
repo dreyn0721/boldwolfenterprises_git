@@ -42,10 +42,10 @@ include("init/main-functions.php");
 	      </button>
 	      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
 	        <ul class="navbar-nav gap-3">
-	          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#investments">Investments</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>">Home</a></li>
+	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>/blog.php">Blogs</a></li>
+	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>#faq">FAQ</a></li>
+	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>#contact">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
