@@ -80,21 +80,71 @@ main.main-content{
 
 
 
-footer{
-    background-color: #FFF;
-    padding: 20px 0;
-}
-footer .footer-text{
-    font-size: 12px;
-    margin: 0;
-}
-
-
-
-
 
 /*///////////////////////////////////////////////*/
 
 
 
 
+
+    :root{
+      --primary:#2419f7;
+      --secondary:#077391;
+      --light:#f2f4f5;
+      --dark:#cfd0d1;
+    }
+
+    body{
+      scroll-behavior:smooth;
+    }
+
+    section{
+      padding:70px 0;
+    }
+
+    .bg-light-alt{ background:var(--light); }
+    .bg-dark-alt{ background:var(--dark); }
+
+    /* Header */
+    .logo{
+      max-width:120px;
+    }
+
+    /* Hero */
+    .hero{
+      background:
+        linear-gradient(to right, rgba(0,0,255,0.7), #000 ),
+        url("https://dummyimage.com/800x400/000/fff");
+      background-size:cover;
+      background-position:center;
+      color:#fff;
+      text-align:center;
+      padding:120px 20px;
+    }
+
+    /* Testimonials */
+    .testimonial-card img{
+      border-radius:50%;
+    }
+
+    /* Footer */
+    footer{
+      background:var(--primary);
+      color:#fff;
+    }
+
+    footer a{
+      color:#fff;
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+    }
+
+    .copyright{
+      background:#cfd0d1;
+      text-align:center;
+      padding:10px;
+      font-size:14px;
+    }

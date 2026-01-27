@@ -4,12 +4,13 @@ include("init/main-functions.php");
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 	<script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 	<script src="assets/js/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
@@ -28,6 +29,29 @@ include("init/main-functions.php");
 	<title><?=$pagetitle;?></title>
 </head>
 <body>
+
+	<header class="bg-light-alt py-3">
+	  <div class="text-center mb-3">
+	    <img src="https://dummyimage.com/200x80/000/fff&text=LOGO" class="logo" alt="Logo">
+	  </div>
+
+	  <nav class="navbar navbar-expand-lg navbar-light">
+	    <div class="container">
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+	        <ul class="navbar-nav gap-3">
+	          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#investments">Investments</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	</header>
+
 
 
 	<main class="main-content">
