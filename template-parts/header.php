@@ -30,19 +30,21 @@ include("init/main-functions.php");
 </head>
 <body>
 
-	<header class="bg-light-alt py-3">
-	  <div class="text-center mb-3">
-	    <img src="https://dummyimage.com/200x80/000/fff&text=LOGO" class="logo" alt="Logo">
-	  </div>
+	<header class="bg-light-alt ">
 
 	  <nav class="navbar navbar-expand-lg navbar-light">
+
+		  <div class="text-center p-2">
+		    <a href="<?php echo $base_url; ?>"><img src="<?php echo $base_url;?>/assets/img/logoipsum-410.png" class="logo" alt="Logo"></a>
+		  </div>
+
+
 	    <div class="container">
 	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
 	        <span class="navbar-toggler-icon"></span>
 	      </button>
 	      <div class="collapse navbar-collapse justify-content-center" id="navMenu">
 	        <ul class="navbar-nav gap-3">
-	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>">Home</a></li>
 	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>/blog.php">Blogs</a></li>
 	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>#faq">FAQ</a></li>
 	          <li class="nav-item"><a class="nav-link" href="<?php echo $base_url; ?>#contact">Contact</a></li>
